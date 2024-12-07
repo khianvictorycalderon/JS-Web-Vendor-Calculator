@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/index.css" />
+    <title>JS Web Vendor Calculator</title>
+  </head>
+  <body>
+    <h1>Vendor Calculator</h1>
+    <p>by <a href="https://khian.netlify.app/">Khian Victory D. Calderon</a></p>
+    <hr/>
+    <br/>
+    <label for="my-share">My share per item: </label>
+    <input id="my-share" name="my-share" type="number" value="3"/>
+    <br/><br/>
+    <label for="vendor-share">Vendor share per item:</label>
+    <input id="vendor-share" name="vendor-share" type="number" value="2"/>
+    <br/><br/>
+    <label for="investment">How much investment per item?</label>
+    <input id="investment" name="investment" type="number" value="5"/>
+    <br/><br/>
+    <label for="price">How much do you sell each item?</label>
+    <input id="price" name="price" type="number" value="10"/>
+    <br/><br/>
+    <label for="sold">How many pieces were sold?</label>
+    <input id="sold" name="sold" type="number" />
+    <br/><br/>
+    <button onclick="calculate();">Calculate</button>
+    <hr/>
+    <div id="output"></div>
+  </body>
+  <script src="assets/index.js"></script>
+</html>
