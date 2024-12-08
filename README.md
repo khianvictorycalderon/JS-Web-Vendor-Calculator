@@ -15,7 +15,3 @@ I hope you enjoy using this calculator!
 4. Enter how much do you sell each item
 5. Enter how many items or pieces were sold
 6. The output will generate the total profit, your share, and the vendor share of profit
-
----
-
-Visit this as a website [here](https://khianvictorycalderon.github.io/JS-Web-Vendor-Calculator/).
