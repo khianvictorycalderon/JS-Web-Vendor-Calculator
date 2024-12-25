@@ -25,12 +25,14 @@ function calculate() {
 
     // Perform calculation
     const profitPerItem = priceValue - investmentValue;
+    const totalRevenue = soldValue * priceValue;
     const totalProfit = profitPerItem * soldValue;
     const totalYourShare = yourSharePerItem.value * soldValue;
     const totalVendorShare = vendorSharePerItem.value * soldValue;
 
     // Display result
     output.innerHTML = `
+        Total Revenue: ${totalRevenue.toFixed(2)}<br/><br/>
         Total Profit: ${totalProfit.toFixed(2)}<br/><br/>
         Your Total Share: ${totalYourShare.toFixed(2)}<br/><br/>
         Vendor's Total Share: ${totalVendorShare.toFixed(2)}
